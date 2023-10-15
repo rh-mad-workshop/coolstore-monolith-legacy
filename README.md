@@ -1,7 +1,7 @@
-The CCN Roadshow(Dev Track) Module 1 Labs 2022
+Module CHS: Migration to EAP
 ===
 
-This repo provides templates, generated Java codes, empty configuration for each labs that developers need to implement cloud-native microservices in workshop. 
+This repo provides templates, generated Java codes, empty configuration for each labs that developers need to implement cloud-native microservices in the MAD Dev Track. 
 
 The included Java projects and/or installation files are here:
 
