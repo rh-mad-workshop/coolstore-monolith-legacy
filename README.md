@@ -5,8 +5,6 @@ This repo provides templates, generated Java codes, empty configuration for each
 
 The included Java projects and/or installation files are here:
 
-* Catalog - Spring Boot
-* Inventory - Red Hat Build of Quarkus
 * Monolith - JBoss EAP 
 
 OpenShift version - 4.13
