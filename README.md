@@ -7,4 +7,4 @@ The included Java projects and/or installation files are here:
 
 * Monolith - JBoss EAP 
 
-OpenShift version - 4.13
+OpenShift version - 4.15
