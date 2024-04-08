@@ -1,0 +1,18 @@
+schemaVersion: 2.2.0
+metadata:
+  name: coolstore-monolith-legacy
+attributes:
+  che-theia.eclipse.org/sidecar-policy: mergeImage
+projects:
+  - attributes: {}
+    name: coolstore-monolith-legacy
+    git:
+      remotes:
+        origin: https://github.com/rh-mad-workshop/coolstore-monolith-legacy.git
+components:
+  - name: universal-developer-image
+    attributes:
+      container-overrides: {"securityContext": {"privileged": true}}
+    container: 
+      image: registry.redhat.io/devspaces/udi-rhel8:3.12
+commands: []
