@@ -9,7 +9,7 @@ components:
     attributes:
       container-overrides: {"securityContext": {"privileged": true}}
     container: 
-      image: quay.io/cgruver0/che/nested-fedora:latest
+      image: quay.io/openshiftlabs/nested-fedora:latest
       memoryLimit: 6Gi
       mountSources: true
 commands: []
