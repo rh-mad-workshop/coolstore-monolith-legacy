@@ -3,12 +3,7 @@ metadata:
   name: coolstore-monolith-legacy
 attributes:
   che-theia.eclipse.org/sidecar-policy: mergeImage
-projects:
-  - attributes: {}
-    name: coolstore-monolith-legacy
-    git:
-      remotes:
-        origin: https://github.com/rh-mad-workshop/coolstore-monolith-legacy.git
+  controller.devfile.io/storage-type: ephemeral
 components:
   - name: dev-tools
     attributes:
@@ -17,12 +12,4 @@ components:
       image: registry.redhat.io/devspaces/udi-rhel8:3.12
       memoryLimit: 6Gi
       mountSources: true
-      env:
-      - name: SHELL
-        value: "/bin/zsh"
-      - name: DOCKER_CMD
-        value: podman
-  - volume: 
-      size: 10Gi
-    name: projects
 commands: []
