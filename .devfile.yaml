@@ -10,9 +10,19 @@ projects:
       remotes:
         origin: https://github.com/rh-mad-workshop/coolstore-monolith-legacy.git
 components:
-  - name: universal-developer-image
+  - name: dev-tools
     attributes:
       container-overrides: {"securityContext": {"privileged": true}}
     container: 
       image: registry.redhat.io/devspaces/udi-rhel8:3.12
+      memoryLimit: 6Gi
+      mountSources: true
+      env:
+      - name: SHELL
+        value: "/bin/zsh"
+      - name: DOCKER_CMD
+        value: podman
+  - volume: 
+      size: 10Gi
+    name: projects
 commands: []
