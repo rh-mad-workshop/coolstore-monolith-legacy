@@ -17,4 +17,3 @@ insert into PRODUCT_CATALOG (itemId, name, description, price) values ('444434',
 insert into PRODUCT_CATALOG (itemId, name, description, price) values ('444435', 'Quarkus twill cap', '',13.00 );
 insert into PRODUCT_CATALOG (itemId, name, description, price) values ('444436', 'Women RHEL 8 t-shirt', '', 10.00);
 insert into PRODUCT_CATALOG (itemId, name, description, price) values ('444437', 'Nanobloc Universal Webcam Cover', '', 2.75);
-
